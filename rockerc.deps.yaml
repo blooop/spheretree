@@ -2,6 +2,7 @@ apt_tools:
   - git
   - git-lfs
   - jq #for auto installing extensions in container
+  - ca-certificates #for pushing git from in container
 
 apt_language-toolchain:
   - make
